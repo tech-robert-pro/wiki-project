@@ -141,7 +141,6 @@ Installed only essential extensions (SyntaxHighlight, BatchUpload, etc.). Avoide
 - [Terminology management](https://github.com/tech-robert-pro/terminology-management)
 - [LLM automation tools](https://github.com/tech-robert-pro/llm-tool-examples)
 - [Hardware manual samples](https://github.com/tech-robert-pro/hardware-manual-samples)
-- [Documentation wiki](https://github.com/tech-robert-pro/wiki-project)
 
 ---
 
