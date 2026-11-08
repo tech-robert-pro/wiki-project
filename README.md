@@ -30,33 +30,31 @@ The result: a searchable, mobile-responsive knowledge hub that improved informat
 
 ```
 /
-├── README.md                     # This file
+├── README.md                            # This file
+├── LICENSE                              # MIT
 ├── screenshots/
-│   ├── homepage.png              # Site overview showing navigation
-│   ├── search-interface.png      # Demonstrates improved discoverability
-│   ├── mobile-view.png           # Responsive design proof
-│   └── accessibility-report.png  # WAVE audit results
+│   ├── homepage.png                     # Navigation, search bar, categories
+│   ├── search-interface.png             # Query + results + result count
+│   ├── mobile-view.png                  # 375px, hamburger menu open
+│   └── accessibility-audit.png          # WAVE audit output
 ├── code-snippets/
-│   ├── bootstrap-customization.js # Custom component overrides
-│   ├── mediawiki-extensions.php  # Extension configuration
-│   ├── custom-templates.php      # Page layout templates
-│   └── wcag-accessibility-notes.md # Accessibility implementation details
+│   └── bootstrap-customization.js       # Custom component overrides
 ├── configuration/
-│   ├── LocalSettings.php         # MediaWiki core config
-│   ├── skin-customization.css    # Theme override stylesheet
-│   └── extension-list.txt        # Installed extensions with versions
-├── content-migration/
-│   ├── pdf-to-wiki-script.py     # Automation for bulk content migration
-│   └── migration-log.md          # Documented migration process
+│   ├── LocalSettings.example.php        # Sanitized MediaWiki config (no credentials)
+│   └── extension-list.txt               # Installed extensions with versions
+├── migration/
+│   └── pdf-to-wiki-process.md           # PDF-to-wiki conversion process
 ├── accessibility/
-│   ├── wave-audit-report.html    # Full WCAG validation output
-│   ├── keyboard-navigation-test.md # Manual testing procedures
-│   └── screen-reader-notes.md    # NVDA/JAWS compatibility notes
+│   ├── wcag-compliance.md               # WCAG 2.1 AA report with known limitations
+│   └── keyboard-navigation-test.md      # Manual keyboard testing record
 └── maintenance/
-│   ├── backup-procedure.md       # Disaster recovery steps
-│   ├── update-checklist.md       # Quarterly maintenance tasks
-│   └── incident-log.md           # Downtime and issue tracking
+    ├── backup-procedure.md              # Nightly backup + restore verification
+    └── update-checklist.md              # Quarterly maintenance tasks
 ```
+
+All configuration is sanitized for portfolio use — database credentials, secret
+keys, and internal hostnames removed. Screenshots are captured from a
+sanitized instance with no proprietary content.
 
 ---
 
