@@ -1,6 +1,6 @@
 # Documentation Wiki Project
 
-> Custom documentation platform built on MediaWiki base. Solo-developed Bootstrap, CSS, JavaScript, and WCAG 2.1 AA accessibility compliance. Replaced PDF-only distribution with searchable web knowledge hub.
+> Custom documentation platform built on MediaWiki base. Solo-developed Bootstrap, CSS, JavaScript, and WCAG 2.1 AA accessibility compliance. Complimented PDF-only distribution with searchable web knowledge hub.
 
 ![Status](https://img.shields.io/badge/status-live-brightgreen)
 ![Accessibility](https://img.shields.io/badge/wcag-2.1%20AA-green)
